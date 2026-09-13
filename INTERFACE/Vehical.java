@@ -1,4 +1,4 @@
-package JavaBasic.INTERFACE;
+package src.main.java.JavaBasic.INTERFACE;
 
 
 
