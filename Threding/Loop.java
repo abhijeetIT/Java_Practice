@@ -10,7 +10,7 @@ public class Loop {
         // Second Thread using Lambda (Fixed Line 10)
         Thread t2 = new Thread(() -> {
             for (int i = 0; i < 10; i++) {
-                System.out.println("Task 2: " + i); // Changed to Task 2 for clarity
+                System.out.println("Task 2: " + i); 
             }
         });
 
