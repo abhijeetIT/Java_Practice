@@ -14,7 +14,6 @@ public class Loop {
             }
         });
 
-        // Don't forget to start your threads if you want them to run
         t.start();
         t2.start();
         
