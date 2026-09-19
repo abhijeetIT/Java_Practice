@@ -6,7 +6,7 @@ public class OTPGenerator {
 
     private static final SecureRandom secureRandom = new SecureRandom();
 
-    public static String generateOTP() {
+    public static String generateOTP() { //rfandomely creadted
         int otp = 1000 + secureRandom.nextInt(9000);
         return String.valueOf(otp);
     }
