@@ -5,10 +5,8 @@ public class LifeCycle extends Thread{
     @Override
     public void run(){
       System.out.println("Run is Method call");
-      System.out.println("In run method state is = "+Thread.currentThread().getState());
+      System.out.println("In run method state is = "+Thread.currentThread().getState());  //gives OUTPUT : RUNNABLE
     }
-
-    
 
     public static void main(String[] args) {
 
@@ -18,7 +16,7 @@ public class LifeCycle extends Thread{
 
         thread.start(); //starting run method
 
-        System.out.println("21   "+thread.getState()); 
+        System.out.println("21   "+thread.getState());  //gives OUTPUT : RUNNABLE
 
     }
 }
