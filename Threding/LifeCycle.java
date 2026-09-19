@@ -12,6 +12,10 @@ public class LifeCycle extends Thread{
     public static void main(String[] args) {
 
         LifeCycle thread = new LifeCycle();
-        System.out.println(thread.getState());
+
+        System.out.println(thread.getState()); //thread created
+
+        thread.start();
+
     }
 }
