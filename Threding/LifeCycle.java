@@ -16,7 +16,7 @@ public class LifeCycle extends Thread{
 
         System.out.println(thread.getState()); //thread created OUTPUT: NEW
 
-        thread.start();
+        thread.start(); //starting run method
 
         System.out.println(thread.getState()); 
 
