@@ -8,6 +8,6 @@ public class Quetion2 {
 
         map.put(1, "Hii");
 
-        System.out.println(map.get(2));
+        System.out.println(map.get(2)); //it return NULL beocuse key not exist
     }
 }
