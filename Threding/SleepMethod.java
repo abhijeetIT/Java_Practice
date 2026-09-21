@@ -10,7 +10,6 @@ public class SleepMethod extends Thread{
         }catch(Exception e){
             System.out.println(e.getLocalizedMessage());
         }
-
         System.out.println(i);
        }
     }
