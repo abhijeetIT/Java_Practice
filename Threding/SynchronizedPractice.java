@@ -13,7 +13,7 @@ synchronized void increment() {
 
 }
 
-public class SyncronizePractice {
+public class SynchronizedPractice {
     public static void main(String[] args) throws InterruptedException {
 
         Counter counter = new Counter();
