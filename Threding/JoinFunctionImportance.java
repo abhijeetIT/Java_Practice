@@ -15,7 +15,7 @@ public class JoinFunctionImportance extends Thread{
 
         thread.start();
 
-        thread.join(); 
+        thread.join(); //it help to maintain flow of program , without this the next task of main excevute and thats not good 
 
         System.out.println("Program ended.........");
     }
