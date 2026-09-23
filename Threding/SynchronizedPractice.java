@@ -1,7 +1,8 @@
 class Counter {
     int count = 0;
 
-    /* void increment() {
+    //this one gives answer but not have datat inconsistatncy
+    /* void increment() { 
         count++;
     }
 */
