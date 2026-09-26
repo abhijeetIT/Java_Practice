@@ -26,7 +26,6 @@ public class NumberOfVowels {
         return count;
     }
 
-
     public static void main(String[] args) {
 
         System.out.println("Total vowels in the list: "+countVowels("Abhijeet"));
