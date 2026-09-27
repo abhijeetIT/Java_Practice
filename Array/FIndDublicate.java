@@ -8,14 +8,13 @@ public class FIndDublicate {
     public static void findDublicate(int[] arr){
 
         HashSet<Integer> dublicate = new HashSet<>();
-        for(int i=0; i<arr.length-1; i++){
-            for(int j=0; j<arr.length; j++){
-                if(arr[i]!=arr[j]){
-                    
-                }
+        
+
+        for( int i : arr){
+            if(!dublicate.add(i)){
+                System.out.println("Dublicate= "+i);
             }
         }
-
     }
     
     public static void main(String[] args) {
