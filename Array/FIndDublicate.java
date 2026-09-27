@@ -8,11 +8,11 @@ public class FIndDublicate {
     public static void findDublicate(int[] arr){
 
         HashSet<Integer> dublicate = new HashSet<>();
-        
+
 
         for( int i : arr){
             if(!dublicate.add(i)){
-                System.out.println("Dublicate= "+i);
+                System.out.println("Dublicate= "+i); //if want to print so do -> 1. create hashSet for storing dublicate then perform add opration rather than print
             }
         }
     }
