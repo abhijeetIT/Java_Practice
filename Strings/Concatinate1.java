@@ -8,7 +8,9 @@ public class Concatinate1 {
     
         
         System.out.println(a+b+"Java");
+
         System.out.println("java"+a+b);
+        
         System.out.println("java"+(a+b));
     }
 }
