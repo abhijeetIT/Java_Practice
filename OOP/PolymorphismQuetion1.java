@@ -13,7 +13,7 @@ class A {
     public void person(int age, String name){
         System.out.println("interchange type of prameter");
     }
-}
+}                      
 
 public class PolymorphismQuetion1 {
 
