@@ -16,8 +16,11 @@ public class LinearSearch {
                }
           }
  
-
-          flag ? System.out.println(pos):System.out.println("Not found");
+          if (flag) {
+               System.out.println(pos);
+          } else {
+               System.out.println("Not found");
+          }
 
 
      }
