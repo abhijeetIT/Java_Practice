@@ -15,7 +15,6 @@ public class LinearSearch {
                     break;
                }
           }
- 
           if (flag) {
                System.out.println(pos);
           } else {
