@@ -13,8 +13,7 @@ public class LinearSearch {
                     pos=i;
                     flag=true;
                     break;
-               }
-          }
+               }}
           if (flag) {
                System.out.println(pos);
           } else {
