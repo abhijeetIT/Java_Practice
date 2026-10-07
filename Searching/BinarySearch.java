@@ -8,8 +8,7 @@ public class BinarySearch {
         int left=0;
         int right=arr.length;
         while(left < last){
-            
-        }
+            int mid = left + (right - left) / 2;        }
     }
 
     public static void main(String[] args) {
