@@ -12,7 +12,6 @@ public class Quetion2 {
        
        System.out.println(lengthOfArguments(new int[]{1,2,4,3}));
 
-
        //here both excepted
     }
 }
