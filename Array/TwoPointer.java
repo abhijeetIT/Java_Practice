@@ -7,5 +7,9 @@ public class TwoPointer {
 
         int prefix=0;
         int sufix=arr.length;
+
+        while(prefix < sufix){
+            int sum = 0;
+        }
     }
 }
