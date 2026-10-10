@@ -45,9 +45,5 @@ public class EffectOfReference {
         testB.Exclusive_A_Class_Method();  //if extends so it use A class method
         testB.Exclusive_B_Class_Method();
         
-
-
-
-
     }
 }
