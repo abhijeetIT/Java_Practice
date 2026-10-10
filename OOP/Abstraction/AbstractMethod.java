@@ -1,20 +1,20 @@
 package main.java.JavaBasic.OOP.Abstraction;
 
+abstract class Vehical{
 
- abstract class Vehical{
-
-    public abstract void Weels ();
+     abstract void Weels ();
 
     public void colour(String Colour){
         System.out.println("Colour");
     }
-
+}
   class Bike extends Vehical{
 
+    @Override
+    public void Weels() {
+        System.out.println("A bike has 2 wheels");
     }
 }
-
-
 
 public class AbstractMethod {
 
@@ -27,6 +27,12 @@ public class AbstractMethod {
         vehical.colour("Red");
     */ 
 
+        //its all valid becouse vehical ingeritade by Bike
 
+        Bike bike = new Bike();
+
+        bike.Weels();
+        bike.colour("Red");
+        
     }
 }
