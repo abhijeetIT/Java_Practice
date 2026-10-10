@@ -17,7 +17,7 @@ public class AbstractMethod {
     public static void main(String[] args) {
         
     
-        Vehical vehical = new Vehical();       // its give compilation error
+        Vehical vehical = new Vehical();       // its give compilation error becouse we cannot create the abstract class OBJECT
         vehical.Weels();
         vehical.colour("Red");
     }
