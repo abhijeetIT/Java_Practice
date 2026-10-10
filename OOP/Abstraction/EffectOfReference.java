@@ -29,11 +29,25 @@ public class EffectOfReference {
     public static void main(String[] args) {
         
 
-        A test = new B();
+        System.out.println();
+        System.out.println("====================Testing A type Reference ======================");
+        A testA = new B();  // A reference cannot access B class exclusive Method
 
-        test.hello();
-        test.world();
+        testA.hello();
+        testA.world();
+        testA.Exclusive_A_Class_Method();
 
+        B testB = new B();
+        System.out.println();
+        System.out.println("====================Testing B type Reference ======================");
+        testB.hello();
+        testB.world();
+        testB.Exclusive_A_Class_Method();  //if extends so it use A class method
+        testB.Exclusive_B_Class_Method();
         
+
+
+
+
     }
 }
