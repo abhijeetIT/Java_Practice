@@ -14,5 +14,11 @@ public class ForLoopUsingByte {
             System.out.println(i);
         }
 
+
+        //this is infinite loop
+        for(byte i = 0 ; i < 129 ; i++){
+            System.out.println(i);
+        }
+
 }
 }
