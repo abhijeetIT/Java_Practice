@@ -1,6 +1,6 @@
 package main.java.JavaBasic.OOP.Encapculation;
 
-public class AbhijeetString {
+final public class AbhijeetString {
     final private String abhijeeString;
     AbhijeetString(String string){
           abhijeeString=string;
