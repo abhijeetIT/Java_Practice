@@ -16,4 +16,9 @@ public class AbhijeetString {
     public int Length(){
         return this.abhijeeString.length();
     }
+
+    @Override
+    public String toString() {
+        return abhijeeString;
+    }
 }
