@@ -6,6 +6,9 @@ public class AbhijeetString {
           abhijeeString=string;
     }
 
+    AbhijeetString(){
+        abhijeeString=null;
+    }
     public String getAbhijeetString(){
         return abhijeeString;
     }
