@@ -12,7 +12,6 @@ public class GroupAnagrams {
         Arrays.sort(chars);          // sorts in place
         return new String(chars); 
     }
-    
     public static void main(String[] args) {
         
         String[] strs = {"eat","tea","tan","ate","nat","bat"};
