@@ -6,6 +6,6 @@ static void print(Object o) { System.out.println("Object"); }
 
 public static void main(String[] args) {
     
-print(null);
+print(null); // it called most sutable or jsut parant method
 }
 }
