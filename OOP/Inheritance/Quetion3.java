@@ -5,6 +5,6 @@ public class Quetion3 {
     static void show(Integer x) { System.out.println("Integer"); }
 
     public static void main(String[] args) {
-        show(10);
+        show(10); //For an int literal, primitive widening to long is preferred over boxing to Integer.
     }
 }
