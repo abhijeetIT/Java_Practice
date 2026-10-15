@@ -12,18 +12,29 @@ class A{
 }
 
 class B extends A{
-    void print(){
-        System.out.println("B method call");
-    }
+    // void print(){
+    //     System.out.println("B method call");
+    // }
 
 }
 
 public class ReferenceChangeSoWhichOneCalled {
     public static void main(String[] args) {
         
+        /* 
+        //this only calls A class method
         A a = new A();
 
         a.print("Abhijeet");
         a.print();
+        */
+
+        /* 
+        //This only calls A method and B method if method have in B
+        A a = new B();
+
+        a.print(); // B Call -> becouse b have a same print() method
+        a.print("Abhijeet");
+        */
     }
 }
