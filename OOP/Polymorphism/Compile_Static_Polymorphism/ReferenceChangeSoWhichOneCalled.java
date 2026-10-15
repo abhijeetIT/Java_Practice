@@ -36,5 +36,9 @@ public class ReferenceChangeSoWhichOneCalled {
         a.print(); // B Call -> becouse b have a same print() method
         a.print("Abhijeet");
         */
+
+        //Print A method becouse B extance all propetyies of A
+        B b = new B();
+        b.print("Abhijeet"); //A method called 
     }
 }
