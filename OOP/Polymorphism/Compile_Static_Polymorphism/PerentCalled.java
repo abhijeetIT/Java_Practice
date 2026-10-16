@@ -18,6 +18,11 @@ public class PerentCalled {
         
         Parent child = new Child();
         
+         /*The reference type is Parent, so the compiler looks for methods available through Parent.
+        Parent has show(Object), but it does not declare show(String).
+        Child.show(String) is an overloaded method, not an override of show(Object).
+        Therefore, Java calls Parent.show(Object).
+        */
         child.show("Abhijeet"); 
     }
 }
