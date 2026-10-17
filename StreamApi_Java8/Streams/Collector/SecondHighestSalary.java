@@ -1,8 +1,12 @@
 package main.java.JavaBasic.StreamApi_Java8.Streams.Collector;
 
 import java.util.ArrayList;
+import java.util.Comparator;
 import java.util.List;
+import java.util.Optional;
 import java.util.stream.Collectors;
+
+import src.main.java.JavaBasic.seeTypeOFvariable;
 
 class Employee {
     private String name;
@@ -29,8 +33,50 @@ class Employee {
                 ", Department='" + department + '\'' +
                 '}';
     }
-    
+
+    // Getters
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public double getSalary() {
+        return salary;
+    }
+
+    public String getDesignation() {
+        return designation;
+    }
+
+    public String getDepartment() {
+        return department;
+    }
+
+    // Setters
+    public void setName(String name) {
+        this.name = name;
+    }
+
+    public void setAge(int age) {
+        this.age = age;
+    }
+
+    public void setSalary(double salary) {
+        this.salary = salary;
+    }
+
+    public void setDesignation(String designation) {
+        this.designation = designation;
+    }
+
+    public void setDepartment(String department) {
+        this.department = department;
+    }
 }
+
 
 public class SecondHighestSalary {
     
@@ -42,6 +88,13 @@ public class SecondHighestSalary {
         employees.add(new Employee("Rahul", 28, 55000, "Data Analyst", "Analytics"));
         employees.add(new Employee("Sneha", 35, 80000, "HR Manager", "Human Resources"));
 
-        employees.stream().map(Employee::)
+        Optional<Double> secondHighestSalary = employees.stream().map(Employee::getSalary)
+                          .distinct()
+                          .sorted(Comparator.reverseOrder())
+                          .skip(1)
+                          .findFirst();
+
+        System.out.println(secondHighestSalary);
     }
+    
 }
