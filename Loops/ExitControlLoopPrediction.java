@@ -5,7 +5,7 @@ public class ExitControlLoopPrediction {
         
         int i = 0;
         do{
-            System.out.println(i++);
+            System.out.println(i++);  // it use first then increment
         }while(i < 2);
     }
 }
