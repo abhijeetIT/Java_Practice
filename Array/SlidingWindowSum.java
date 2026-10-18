@@ -18,7 +18,7 @@ public class SlidingWindowSum {
     }
 
     public static void main(String[] args) {
-        int[] arr = {12,12,12,2,4,1,232,13,4};
+        int[] arr = {1,2,3,4,4,12,121,34,58,24,242,3};
         slidingWindow(arr,3);
     }
 }
