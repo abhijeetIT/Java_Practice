@@ -1,3 +1,4 @@
+import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Queue;
 
@@ -6,5 +7,6 @@ public class NagativeNumberInEveryWIndow {
         int arr[] = {12, -1, -7, 8, -15, 30, 16, 28};
 
         Queue<Integer> q = new LinkedList<>();
+        List<Integer> ans = new ArrayList<>();
     }
 }
