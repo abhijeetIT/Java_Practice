@@ -19,12 +19,12 @@ public class NagativeNumberInEveryWIndow {
             ans.add(q.isEmpty()? 0 : q.peek());
         }
 
-        for(int i = 1; i < arr.length ; i++){
-            if(arr[i] < 0){
-                q.offer(arr[i]);
+        for(int i = 1; i <= arr.length-windowSize ; i++){
+            if(arr[i-1] < 0){
+                q.remove();
             }
             if(arr[i+windowSize-1] < 0){
-                q.offer(arr[i]);
+                q.offer(arr[i+windowSize-1]);
             }
             ans.add(q.isEmpty()? 0 : q.peek());
         }
