@@ -26,7 +26,9 @@ public class NagativeNumberInEveryWIndow {
             if(arr[i+windowSize-1] < 0){
                 q.offer(arr[i]);
             }
-            ans.add()
+            ans.add(q.isEmpty()? 0 : q.peek());
         }
+
+        System.out.println(ans);
     }
 }
