@@ -4,11 +4,7 @@ public class Factorial {
     
     public static void main(String[] args) {
         
-        int num = 5;
-
-        if(num == 0){
-            System.out.println(1);
-        }
+        int num = 1;
 
         int factorial=1;
         for(int i=1; i <=num ; i++){
