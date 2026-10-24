@@ -3,7 +3,7 @@ package main.java.JavaBasic.Array;
 public class Factorial {
     
     public static void main(String[] args) {
-        
+    
         int num = 5;
 
         int factorial=1;
