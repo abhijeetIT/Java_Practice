@@ -25,7 +25,7 @@ public class NonReapetingCharachterInString {
 }
     public static void main(String[] args) {
         
-        String str = "abhijeetjha"; //
+        String str = "abhijeetjha";
 
         NonReapitingCharacter(str);
     }
