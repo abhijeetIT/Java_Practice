@@ -22,7 +22,6 @@ public class NonReapetingCharachterInString {
             System.out.println(entry.getKey());
         }
     }
-
 }
     public static void main(String[] args) {
         
