@@ -1,3 +1,5 @@
+package main.java.JavaBasic.InterviewPractice;
+
 public class AirthmaticOpration {
    
     public static void main(String[] args) {
