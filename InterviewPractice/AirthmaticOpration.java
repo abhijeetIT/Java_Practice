@@ -11,4 +11,3 @@ public class AirthmaticOpration {
         System.out.println(result2);
     }
 }
-
