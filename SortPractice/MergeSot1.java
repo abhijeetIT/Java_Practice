@@ -15,7 +15,9 @@ public class MergeSot1 {
             }
         }
 
-        
+        while (firstArray < mid) {
+            
+        }
     }
 
     public static void divide(int[] arr, int firstIndex, int secondIndex){
