@@ -16,7 +16,11 @@ public class MergeSot1 {
         }
 
         while (firstArray < mid) {
-            
+            arr[pointer++] = arr[firstArray++];
+        }
+
+        while (secondArray < arr.length) {
+            arr[pointer++] = arr[secondArray++];
         }
     }
 
