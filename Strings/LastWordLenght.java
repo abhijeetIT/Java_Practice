@@ -1,17 +1,36 @@
 package main.java.JavaBasic.Strings;
 
 public class LastWordLenght {
+ // public static int lastWordLenght(String str){
+    //     if(str.length() == 0){
+    //         return -1;
+    //     }
+
+    //     String[] s = str.split(" ");
+
+    //     return s[s.length-1].length();
+    // }
 
     public static int lastWordLenght(String str){
         if(str.length() == 0){
             return -1;
         }
 
-        String[] s = str.split(" ");
+        int length = 0;
 
-        return s[s.length-1].length();
+        int i = str.length()-1;
+
+        while(i >=0 && str.charAt(i) == ' '){
+            i--;
+        }
+
+        while (i >=0 && str.charAt(i) != ' ') {
+            length++;
+            i--;
+        }
+   
+        return length;
     }
-
     public static void main(String[] args) {
         
         String s = "Abhijeet    Ka bhai amarjeet   A";
