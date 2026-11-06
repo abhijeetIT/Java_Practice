@@ -31,6 +31,7 @@ public class LastWordLenght {
    
         return length;
     }
+    
     public static void main(String[] args) {
         
         String s = "Abhijeet    Ka bhai amarjeet   A";
