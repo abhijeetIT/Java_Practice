@@ -2,7 +2,7 @@ package main.java.JavaBasic.Switch;
 
 public class MordernSwitchCaseAfterJAVA14 {
     public static void main(String[] args) {
-        int day = 2;
+        int day = 4;
 
 switch (day) {
     case 1 -> System.out.println("Monday");
