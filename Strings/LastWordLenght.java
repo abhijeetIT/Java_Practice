@@ -7,15 +7,16 @@ public class LastWordLenght {
             return -1;
         }
 
-        
+        String[] s = str.split(" ");
 
-        return -1;
+        return s[s.length-1].length();
     }
 
     public static void main(String[] args) {
         
-        String s = "Abhijeet Ka bhai amarjeet";
+        String s = "Abhijeet    Ka bhai amarjeet   A";
 
         System.out.println("Length is " +lastWordLenght(s));
+
     }
 }
