@@ -36,9 +36,11 @@ public class ThreeSum {
 
                     right--;
                     left++;
-                }
+                
             }else if( sum < 0){
                 left++;
+            }else{
+                right--;
             }
         }
 
