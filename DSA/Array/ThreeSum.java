@@ -43,6 +43,7 @@ public class ThreeSum {
                 right--;
             }
         }
+    }
 
         return result;
     }
