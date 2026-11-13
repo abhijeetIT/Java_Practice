@@ -7,7 +7,7 @@ public class ReverseNumber {
 
         while(input != 0){
             int digit = input % 10;
-            sum+=digit;
+            sum+=digit; //sum 
             input /= 10;
         }
         System.out.println(sum);
