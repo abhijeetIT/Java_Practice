@@ -6,7 +6,10 @@ public class ReverseNumber {
         int sum = 0 ;
 
         while(input != 0){
-            
+            int digit = input % 10;
+            sum+=digit;
+            input /= 10;
         }
+        System.out.println(sum);
     }
 }
