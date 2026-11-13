@@ -7,7 +7,10 @@ public class ReverseNumbers {
 
         while (input != 0) {
             int digit = input % 10;
-            
+            reverse = (reverse * 10)+digit;
+            input /= 10;
         }
+
+        System.out.println(reverse);
     }
 }
