@@ -1,12 +1,15 @@
 package main.java.JavaBasic.InterviewPractice.Arrays;
 
+import java.lang.reflect.Array;
+import java.util.Arrays;
+
 import src.main.java.JavaBasic.Strings.removeVowel;
 
 public class MergeSort {
 
     public static void merge(int[] arr, int startIndex, int mid , int endingIndex){
 
-        int[] temp = new int[startIndex-endingIndex + 1];
+        int[] temp = new int[endingIndex-startIndex + 1];
 
         int firstArrayIndex = startIndex;
         int secondArrayIndex = mid+1;
@@ -28,7 +31,7 @@ public class MergeSort {
             temp[pointer++] = arr[secondArrayIndex++];
         }
 
-        for(int i = 0, j = startIndex ; i <= temp.length ; i++, j++ ){
+        for(int i = 0, j = startIndex ; i < temp.length ; i++, j++ ){
             arr[j] = temp[i];
         }
     }
@@ -52,5 +55,7 @@ public class MergeSort {
         int[] arr = {12,2,11,24,3,5,4,25,14,13,9,8,56};
 
         divide(arr,0,arr.length-1);
+
+        System.out.println(Arrays.toString(arr));
     }
 }
