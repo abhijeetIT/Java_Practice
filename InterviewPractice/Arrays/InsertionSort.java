@@ -9,7 +9,9 @@ public class InsertionSort {
             return;
         }
 
-        
+        for(int i=1 ; i < arr.length ; i++){
+            
+        }
     }
 
     public static void main(String[] args) {
