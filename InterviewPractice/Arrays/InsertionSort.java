@@ -5,6 +5,10 @@ import java.util.Arrays;
 public class InsertionSort {
 
     public static void insertionSort(int[] arr){
+        if(arr.length <= 1){
+            return;
+        }
+
         
     }
 
