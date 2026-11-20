@@ -20,5 +20,5 @@ public class RemoveDublicate {
             System.out.print(arr[i]+", ");
         }
             
-        }
     }
+}
